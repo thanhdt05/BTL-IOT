@@ -1,0 +1,41 @@
+name: Công việc nhóm
+description: Theo dõi một phần việc theo đặc tả V1.3
+title: "[TVx] "
+body:
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Thành viên phụ trách
+      options:
+        - TV1
+        - TV2
+        - TV3
+        - TV4
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Giai đoạn
+      options:
+        - P0
+        - P1
+        - P2
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Phạm vi và mục đặc tả
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Tiêu chí bàn giao và cách kiểm tra
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Phụ thuộc và thành viên cần phối hợp

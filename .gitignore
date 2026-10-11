@@ -1,0 +1,24 @@
+# Local secrets and generated state
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+deployment/certs/
+deployment/runtime/
+firmware/**/secrets.h
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.tmp/
